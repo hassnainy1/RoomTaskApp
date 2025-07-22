@@ -27,4 +27,6 @@ public class Task {
 
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
+
+    // Tip: Validate non-empty title in UI layer before inserting/updating
 }
